@@ -27,8 +27,10 @@ try:
 	
 	# Connecting to host on port 21...
 	s.connect((host, 21))
+	# Get response from remote host...
 	service_name = s.recv(1042)
 
+	# Try Anonymous Login...
 	s.send("USER anonymous\r\n")
 	s.recv(1042)
 
@@ -37,6 +39,7 @@ try:
 	response_string = response.decode('utf-8')
 	s.close()
 
+	# Print out scanning results
 	print "[+] %s" % service_name
 	
 	if success_login in response_string:
