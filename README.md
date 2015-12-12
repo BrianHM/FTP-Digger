@@ -4,7 +4,7 @@ FTP Digger is a Python Script that can scan and do a banner grabbing on a host t
 
 Written by <a href="https://twitter.com/Gr3x__">Brian_HM</a>
 
-Usage: python ftp-digger.py <host/ip address>
+Usage: python ftp-digger.py ip_address
 
 Requirement: Python 2.7
 
