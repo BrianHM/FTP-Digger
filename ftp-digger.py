@@ -12,7 +12,7 @@ success_login = '230'
 
 if len(sys.argv) != 2:
 	print "\n[+] FTP Digger - File Tranfer Protocol Banner Grabbing"
-	print "[+] Written by Brian HM (Gr3x)"
+	print "[+] Written by m0zi"
 	print "[+] Usage: %s <IP Address>\n" % script_name
 	sys.exit()
 
