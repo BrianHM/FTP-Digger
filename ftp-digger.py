@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # FTP Digger - FTP Banner Grabbing
-# Written by Brian HM (Gr3x)
+# Written by m0zi
 
 import socket
 import sys
